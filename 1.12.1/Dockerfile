@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER e2tox@live.com
+MAINTAINER Ling <x@e2.to>
 ENV NGINX_VERSION=1.12.1-r0
 RUN apk upgrade --update && \
     apk add --update nginx=${NGINX_VERSION} ca-certificates bash && \
